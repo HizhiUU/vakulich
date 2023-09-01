@@ -1,0 +1,44 @@
+h1 {
+	color: blue; /* цвет заголовка всех страниц */ 
+}
+
+h2 {
+	color: green; /* цвет заголовка всех страниц */ 
+}
+
+#ch_text {
+	color: red; text-align:justify; font-family:"Comic Sans MS"; /* атрибуты текста <div id="ch_text"> */
+	font-size: 2vw;
+}
+
+#ch2_text {
+	color: green; text-align:justify; font-style:italic; font-family:Impact; /* атрибуты текста <div id="ch2_text"> */
+	font-size: 2vw;
+}
+
+.st1_text {
+	color: blue; text-align:justify; font-family:Arial; text-indent:50px; /*/* атрибуты текста <div class="st1_text"> */
+	font-size: 2vw;	
+}
+
+.class_stat {
+	text-align:justify; font-family:Arial; text-indent:50px; 
+}
+
+
+
+.dropdown {
+	position:relative; display:inline-block; 
+}
+
+.dropdown-content{
+	display: none; position: absolute; z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropbtn{
+	color: blue;
+}
