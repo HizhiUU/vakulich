@@ -12,7 +12,7 @@ h2 {
 }
 
 #ch2_text {
-	color: green; text-align:justify; font-style:italic; font-family:Impact; /* атрибуты текста <div id="ch2_text"> */
+	color: rgb(0, 0, 0); text-align:justify; font-style:italic; font-family:Impact; /* атрибуты текста <div id="ch2_text"> */
 	font-size: 2vw;
 }
 
@@ -41,4 +41,74 @@ h2 {
 
 .dropbtn{
 	color: blue;
+}
+#wrap {
+	width: 100%;
+	height: 30;
+	margin: 0;
+	z-index: 99;
+	position: relative;
+	background-color: #ffffff;
+}
+
+.navbar {
+	height: 30px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+}
+
+.navbar li {
+	height: auto;
+	width: 200px;
+	float: left;
+	text-align: center;
+	list-style: none;
+	font: normal bold 13px;
+	padding: 0;
+	margin: 0;
+	background-color: #d8d5d5;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.navbar a {
+	padding: 18px 0;
+	border-left: 1px solid #ffffff;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+}
+
+.navbar li:hover,
+a:hover {
+	background-color: #b4b4b4;
+}
+
+.navbar li ul {
+	display: none;
+	height: auto;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar li:hover ul {
+	display: block;
+}
+
+.navbar li ul li {
+	background-color: #d8d5d5;
+}
+
+.navbar li ul li a {
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+.navbar li ul li a:hover {
+	background-color: #b4b4b4;
 }
